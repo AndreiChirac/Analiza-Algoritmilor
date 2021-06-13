@@ -1,0 +1,40 @@
+Andrei Chirac 321CD
+
+CONTINUT ARHIVA:
+-folder 'in':
+	+contine folderul BoyerMoore care contine testele pentru algoritmul cu acelasi nume
+		-pe prima linie se afla patternul
+		-pe a doua linie se afla textul in care se doreste cautarea modelului
+	+contine folderul AhoCorasick care contine atat testele pentru algoritmu; cu acelasi nume
+	cat si pentru KMP
+		-pe prima linie se afla numarul de cuvinte care trebuie sa fie cautate
+		-pe a doua linie se afla patternurile dupa care se realizeaza cautarea
+		-pe a treia linie se afla textul in care se realizeaza cautarea
+	
+folderul 'out':
+    	+contine folderul BoyerMoore care contine datele obtinute in urma testelor 
+	+contine folderul AhoCorasick care contine datele obtinute in urma testelor 
+ 	+contine folderul KMP care contine datele obtinute in urma testelor 
+   	   	
+-BoyerMoore.h
+	+header fisier BoyerMoore.cpp
+-BoyerMoore.cpp
+	+implementarea algoritmului BoyerMoore 
+-Aho_Corasick.h
+	+header fisier Aho_Corasick.cpp
+-Aho_Corasick.cpp
+    	+implementarea algoritmului Aho-Corasick
+-KMP.h
+    	+header fisier KMP.cpp
+-KMP.cpp
+    	+implementarea algoritmului KMP
+-algo_test.cpp
+    	+se realizeaza cititrea datelor din fisier 
+	+se apeleaza functiile respective care intorc fie un vectro care sa contine indexul aparitiilor fie un map care stocheaza patternul care a fost descoperit si indexii la care incepe si se termina
+	+se realizeaza punerea in fisiere 
+
+Referinte coduri:
+https://www.youtube.com/watch?v=Tbj8iH9UkSA
+https://www.geeksforgeeks.org/aho-corasick-algorithm-pattern-searching/
+https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
+

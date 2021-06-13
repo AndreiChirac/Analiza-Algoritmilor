@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1606930137 source:/home/andrei/Desktop/Anul 2/AA/AA/BoyerMoore.cpp
+	<iostream>
+	<string>
+	<map>
+	<algorithm>
+	<vector>
+
+1606843748 source:/home/andrei/Desktop/Anul 2/AA/AA/Test.cpp
+	<iostream>
+	<algorithm>
+	<queue>
+	<cstring>
+	<string>
+	<vector>
+	<fstream>
+	"Aho_Corasick.h"
+	"BoyerMoore.h"
+	"KMP.h"
+	<bits/stdc++.h>
+
+1606930134 /home/andrei/Desktop/Anul 2/AA/AA/Aho_Corasick.h
+	<iostream>
+	<string>
+	<map>
+
+1606929803 /home/andrei/Desktop/Anul 2/AA/AA/BoyerMoore.h
+	<iostream>
+	<string>
+	<map>
+	<algorithm>
+
+1606930139 source:/home/andrei/Desktop/Anul 2/AA/AA/Aho_Corasick.cpp
+	<iostream>
+	<algorithm>
+	<queue>
+	<cstring>
+	<vector>
+	<bits/stdc++.h>
+
+1606930049 source:/home/andrei/Desktop/Anul 2/AA/AA/KMP.cpp
+	"KMP.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+	<cstring>
+	<string>
+
+1606929733 /home/andrei/Desktop/Anul 2/AA/AA/KMP.h
+	<iostream>
+	<string>
+	<cstring>
+	<map>
+	<algorithm>
+	<vector>
+
+1606929569 source:/home/andrei/Desktop/Anul 2/AA/AA/algo_test.cpp
+	<iostream>
+	<algorithm>
+	<queue>
+	<cstring>
+	<string>
+	<vector>
+	<fstream>
+	"Aho_Corasick.h"
+	"BoyerMoore.h"
+	"KMP.h"
+	<bits/stdc++.h>
+
